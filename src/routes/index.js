@@ -10,16 +10,14 @@ const Loadable = (Component) => {
   );
 };
 
-const basename =
-  `/${process.env.REACT_APP_PUBLIC_URL}` ||
-  "https://satarovbekzhan.github.io/siroca/";
+// const basename = `/${process.env.REACT_APP_PUBLIC_URL}` || "https://satarovbekzhan.github.io/";
 
 export default () => {
   return (
-    <BrowserRouter basename={basename}>
+    <BrowserRouter>
       <Routes>
         <Route path="*" element={<NotFoundPage />} />
-        <Route path="/">
+        <Route path="siroca/">
           <Route index element={<HomePage />} />
           <Route path="orders" element={<OrdersPage />} />
           <Route path="orders/fake" element={<OrdersPage useFakeApi />} />
