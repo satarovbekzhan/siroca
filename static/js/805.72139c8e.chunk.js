@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksiroca=self.webpackChunksiroca||[]).push([[805],{805:function(e,c,s){s.r(c);s(791);var r=s(184);c.default=function(){return(0,r.jsx)("div",{className:"w-screen h-screen grid place-items-center",children:(0,r.jsx)("p",{children:"404"})})}}}]);
+//# sourceMappingURL=805.72139c8e.chunk.js.map
