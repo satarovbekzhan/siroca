@@ -10,9 +10,13 @@ const Loadable = (Component) => {
   );
 };
 
+const basename =
+  `/${process.env.REACT_APP_PUBLIC_URL}` ||
+  "https://satarovbekzhan.github.io/siroca/";
+
 export default () => {
   return (
-    <BrowserRouter basename={`/${process.env.PUBLIC_URL}`}>
+    <BrowserRouter basename={basename}>
       <Routes>
         <Route path="*" element={<NotFoundPage />} />
         <Route path="/">
