@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/siroca/static/css/main.9695b99c.css",
-    "main.js": "/siroca/static/js/main.daaac6a2.js",
+    "main.js": "/siroca/static/js/main.df887997.js",
     "static/js/805.72139c8e.chunk.js": "/siroca/static/js/805.72139c8e.chunk.js",
     "static/js/415.05b882f4.chunk.js": "/siroca/static/js/415.05b882f4.chunk.js",
     "static/js/29.1ac5340d.chunk.js": "/siroca/static/js/29.1ac5340d.chunk.js",
     "static/js/787.58e07d52.chunk.js": "/siroca/static/js/787.58e07d52.chunk.js",
     "index.html": "/siroca/index.html",
     "main.9695b99c.css.map": "/siroca/static/css/main.9695b99c.css.map",
-    "main.daaac6a2.js.map": "/siroca/static/js/main.daaac6a2.js.map",
+    "main.df887997.js.map": "/siroca/static/js/main.df887997.js.map",
     "805.72139c8e.chunk.js.map": "/siroca/static/js/805.72139c8e.chunk.js.map",
     "415.05b882f4.chunk.js.map": "/siroca/static/js/415.05b882f4.chunk.js.map",
     "29.1ac5340d.chunk.js.map": "/siroca/static/js/29.1ac5340d.chunk.js.map",
@@ -16,6 +16,6 @@
   },
   "entrypoints": [
     "static/css/main.9695b99c.css",
-    "static/js/main.daaac6a2.js"
+    "static/js/main.df887997.js"
   ]
 }
