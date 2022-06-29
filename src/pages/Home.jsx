@@ -5,7 +5,7 @@ export default () => {
     <div className="container py-4 flex flex-col gap-4">
       <a href="https://t.me/satarovbekzhan">Автор: Бекжан Сатаров</a>
       <a href="https://docs.google.com/document/d/1Pj6v1i4HH2MI7Su-XmC74rAev8QzlJg5/edit">
-        Задание: Cоздать страницу React Js
+        Задание: Cоздать страницу React
       </a>
       <h1>Выберите API для дальнейшего использования!</h1>
       <div className="flex flex-col sm:flex-row gap-4">

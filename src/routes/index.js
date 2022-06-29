@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from "react";
-import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Preloader from "components/Preloader";
 
 const Loadable = (Component) => {
@@ -10,14 +10,12 @@ const Loadable = (Component) => {
   );
 };
 
-// const basename = `/${process.env.REACT_APP_PUBLIC_URL}` || "https://satarovbekzhan.github.io/";
-
 export default () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="*" element={<NotFoundPage />} />
-        <Route path="siroca/">
+        <Route path="/">
           <Route index element={<HomePage />} />
           <Route path="orders" element={<OrdersPage />} />
           <Route path="orders/fake" element={<OrdersPage useFakeApi />} />
