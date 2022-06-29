@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from "react";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 import Preloader from "components/Preloader";
 
 const Loadable = (Component) => {
@@ -12,7 +12,7 @@ const Loadable = (Component) => {
 
 export default () => {
   return (
-    <HashRouter>
+    <BrowserRouter basename={`/${process.env.PUBLIC_URL}`}>
       <Routes>
         <Route path="*" element={<NotFoundPage />} />
         <Route path="/">
@@ -21,7 +21,7 @@ export default () => {
           <Route path="orders/fake" element={<OrdersPage useFakeApi />} />
         </Route>
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 
