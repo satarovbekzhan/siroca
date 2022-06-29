@@ -1,21 +1,19 @@
 {
   "files": {
-    "main.css": "/siroca/static/css/main.9695b99c.css",
-    "main.js": "/siroca/static/js/main.c2b332ae.js",
+    "main.css": "/siroca/static/css/main.ce4604fa.css",
+    "main.js": "/siroca/static/js/main.59464d87.js",
     "static/js/805.72139c8e.chunk.js": "/siroca/static/js/805.72139c8e.chunk.js",
-    "static/js/415.a8d756a3.chunk.js": "/siroca/static/js/415.a8d756a3.chunk.js",
-    "static/js/29.1ac5340d.chunk.js": "/siroca/static/js/29.1ac5340d.chunk.js",
+    "static/js/29.3ca617ed.chunk.js": "/siroca/static/js/29.3ca617ed.chunk.js",
     "static/js/787.58e07d52.chunk.js": "/siroca/static/js/787.58e07d52.chunk.js",
     "index.html": "/siroca/index.html",
-    "main.9695b99c.css.map": "/siroca/static/css/main.9695b99c.css.map",
-    "main.c2b332ae.js.map": "/siroca/static/js/main.c2b332ae.js.map",
+    "main.ce4604fa.css.map": "/siroca/static/css/main.ce4604fa.css.map",
+    "main.59464d87.js.map": "/siroca/static/js/main.59464d87.js.map",
     "805.72139c8e.chunk.js.map": "/siroca/static/js/805.72139c8e.chunk.js.map",
-    "415.a8d756a3.chunk.js.map": "/siroca/static/js/415.a8d756a3.chunk.js.map",
-    "29.1ac5340d.chunk.js.map": "/siroca/static/js/29.1ac5340d.chunk.js.map",
+    "29.3ca617ed.chunk.js.map": "/siroca/static/js/29.3ca617ed.chunk.js.map",
     "787.58e07d52.chunk.js.map": "/siroca/static/js/787.58e07d52.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9695b99c.css",
-    "static/js/main.c2b332ae.js"
+    "static/css/main.ce4604fa.css",
+    "static/js/main.59464d87.js"
   ]
 }
